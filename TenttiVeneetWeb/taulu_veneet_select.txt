@@ -1,0 +1,24 @@
+mysql> desc veneet;
++-------------+-------------+------+-----+---------+----------------+
+| Field       | Type        | Null | Key | Default | Extra          |
++-------------+-------------+------+-----+---------+----------------+
+| tunnus      | int(11)     | NO   | PRI | NULL    | auto_increment |
+| nimi        | varchar(50) | NO   |     | NULL    |                |
+| merkkimalli | varchar(50) | NO   |     | NULL    |                |
+| pituus      | double      | NO   |     | NULL    |                |
+| leveys      | double      | NO   |     | NULL    |                |
+| hinta       | int(11)     | NO   |     | NULL    |                |
++-------------+-------------+------+-----+---------+----------------+
+6 rows in set (0.00 sec)
+
+
+mysql> select * from veneet;
++--------+--------+-------------+--------+--------+-------+
+| tunnus | nimi   | merkkimalli | pituus | leveys | hinta |
++--------+--------+-------------+--------+--------+-------+
+|      1 | Aurora | Finnsaurus  |    9.5 |   2.85 | 30000 |
+|      2 | Pilvi  | Flipper 515 |   5.15 |   2.15 | 15000 |
+|      3 | Unelma | Nauticat 33 |   10.5 |    3.2 | 60000 |
+|      4 | Haave  | Tristan 870 |    9.5 |   3.15 | 70000 |
++--------+--------+-------------+--------+--------+-------+
+4 rows in set (0.01 sec)

@@ -1,0 +1,22 @@
+mysql -u a1505210 -p
+
+uid = a1505210
+pwd = jaZIjt83v
+
+use a1505210
+
+show tables;
+
+mysql> show tables;
++--------------------+
+| Tables_in_a1505210 |
++--------------------+
+| asiakkaat          |
+| autot              |
+| fabfour_kiinteisto |
+| henkilot           |
+| leffat             |
+| login              |
+| veneet             |
++--------------------+
+7 rows in set (0.01 sec)

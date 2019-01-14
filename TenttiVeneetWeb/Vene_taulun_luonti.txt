@@ -1,0 +1,14 @@
+CREATE TABLE veneet (
+tunnus INT NOT NULL AUTO_INCREMENT,
+nimi VARCHAR (50) NOT NULL,
+merkkimalli VARCHAR (50) NOT NULL,
+pituus DOUBLE NOT NULL,
+leveys DOUBLE NOT NULL,
+hinta INT NOT NULL,
+PRIMARY KEY (tunnus)
+)ENGINE=InnoDB;
+
+INSERT INTO veneet(nimi, merkkimalli, pituus, leveys, hinta) VALUES('Aurora','Finnsaurus',9.5,2.85,30000);
+INSERT INTO veneet(nimi, merkkimalli, pituus, leveys, hinta) VALUES('Pilvi','Flipper 515',5.15,2.15,15000);
+INSERT INTO veneet(nimi, merkkimalli, pituus, leveys, hinta) VALUES('Unelma','Nauticat 33',10.5,3.2,60000);
+INSERT INTO veneet(nimi, merkkimalli, pituus, leveys, hinta) VALUES('Haave','Tristan 870',9.5,3.15,70000);

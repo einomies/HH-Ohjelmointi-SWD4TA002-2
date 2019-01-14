@@ -1,0 +1,39 @@
+th{
+	background-color: olive;
+	color: white;
+	font-size: 18px;
+}
+th-alkup{
+	background-color: maroon;
+	color: white;
+	font-size: 18px;	
+}
+input[type="button"], input[type="submit"] { 
+	background-color: olive;
+    color: white;
+    cursor: pointer;
+	border-radius: 10px;
+	width: 150px;
+	height: 30px;
+	font-weight: bold;
+}
+input-alkup[type="button"], input[type="submit"] {
+	background-color: maroon;
+    color: white;
+    cursor: pointer;
+	border-radius: 10px;
+	width: 150px;
+	height: 30px;
+	font-weight: bold;
+}
+table{
+	border-radius: 10px;
+	width: 640px;
+}
+
+.poista{
+	text-decoration: none;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}

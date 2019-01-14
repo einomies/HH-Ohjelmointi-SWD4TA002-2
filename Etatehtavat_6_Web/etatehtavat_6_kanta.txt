@@ -1,0 +1,26 @@
+Haaga-Helia amk / Brade		Ohjelmointi SWD4TA002
+
+Etätehtävät 6
+
+Tee mariaDB.haaga-helia.fi palvelimelle taulu asiakkaat ja koodaa Java EE:llä mahdollisuus hakea ja lisätä asiakkaita. Huomioi, että asiakkaat taulussa asiakas_id –kenttä on laskuri –tyyppinen ja sitä ei huomioida tietokannan päivityslauseissa, vaan se tulee automaattisesti.
+
+Taulun luontilause:
+CREATE TABLE asiakkaat (
+asiakas_id int NOT NULL AUTO_INCREMENT,
+etunimi VARCHAR (50) NOT NULL,
+sukunimi VARCHAR (50) NOT NULL,
+puhelin VARCHAR (20) NOT NULL,
+sposti VARCHAR (100) NOT NULL,
+PRIMARY KEY (asiakas_id)
+)ENGINE=InnoDB;
+
+Tauluun vietävä data:
+INSERT INTO asiakkaat(etunimi, sukunimi, puhelin, sposti)
+VALUES('Matti', 'Virtanen', '0501234567', 'matti.virtanen@hh.fi');
+INSERT INTO asiakkaat(etunimi, sukunimi, puhelin, sposti)
+VALUES('Maija', 'Järvinen', '0507654321', 'maija.jarvinen@hh.fi');
+INSERT INTO asiakkaat(etunimi, sukunimi, puhelin, sposti)
+VALUES('Kaisa', 'Laine', '0501478523', 'kaisa.laine@hh.fi');
+
+INSERT INTO asiakkaat(etunimi, sukunimi, puhelin, sposti)
+VALUES('Eino', 'Kämäräinen', '0504201048', 'einokamarainen@hotmail.com');

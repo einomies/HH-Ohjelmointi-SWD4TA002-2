@@ -1,0 +1,79 @@
+th.vaaka{
+	color: white;
+	font-size: 18px;
+	text-align: left;
+}
+th.pysty{
+	color: white;
+	font-size: 18px;
+}
+td{
+	color: white;
+}
+input[type="button"], input[type="submit"] {
+	background-color: olive;
+    color: white;
+    cursor: pointer;
+	border-radius: 10px;
+	width: 150px;
+	height: 30px;
+	font-weight: bold;
+}
+table{
+	border-radius: 10px;
+	width: 530px;
+	background-color: olive;
+	border: 1px solid black;
+}
+.poista-alkup{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+.poista{
+	text-decoration: none;
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+}
+.muuta-alkup{
+	text-decoration: none;
+	color: green;
+	font-weight: bold;
+}
+.muuta{
+	text-decoration: none;
+	color: lime;
+	font-weight: bold;
+	text-align: center;
+}
+.nappiSarake{
+	text-align: center;
+}
+#otsikko1{
+	background-color: olive;
+    color: white;
+    width: 280px;
+	border-radius: 10px;
+	padding: 14px;
+}
+#kirjaudu{
+	background-color: olive;
+    color: white;
+    width: 280px;
+	border-radius: 10px;
+	padding: 14px;
+}
+span.login{
+	width: 70px;
+	display: inline-block;
+	text-align: right;
+	padding: 5px;
+}
+span.otsikko1{
+	width: 70px;
+	display: table-header-group;
+	text-align: left;
+	padding: 2px;
+	font-weight: bold;
+}
