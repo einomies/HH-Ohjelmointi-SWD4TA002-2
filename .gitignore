@@ -1,5 +1,6 @@
 .metadata
 **/bin/
+**/build/
 tmp/
 *.tmp
 *.bak
@@ -7,6 +8,7 @@ tmp/
 *~.nib
 local.properties
 **/.settings/
+**/.project
 .loadpath
 .recommenders
 
